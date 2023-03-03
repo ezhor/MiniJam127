@@ -1,0 +1,458 @@
+fileFormatVersion: 2
+guid: 05470dddbd3048f41ad105ea0520803a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 90
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Capa de pintura 3(pegado)
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 261
+    spriteID: 68a19bec1f91e3c45b8545bbbcc73a3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -872, y: -97.5}
+      - {x: -858, y: -89.5}
+      - {x: -841, y: -81.5}
+      - {x: -832, y: -77.5}
+      - {x: -793, y: -61.5}
+      - {x: -780, y: -56.5}
+      - {x: -745, y: -48.5}
+      - {x: -729, y: -47.5}
+      - {x: -728, y: -48.5}
+      - {x: -720, y: -49.5}
+      - {x: -706, y: -51.5}
+      - {x: -684, y: -55.5}
+      - {x: -643, y: -64.5}
+      - {x: -630, y: -68.5}
+      - {x: -621, y: -72.5}
+      - {x: -593, y: -80.5}
+      - {x: -553, y: -93.5}
+      - {x: -545, y: -95.5}
+      - {x: -524, y: -100.5}
+      - {x: -493, y: -106.5}
+      - {x: -488, y: -107.5}
+      - {x: -475, y: -109.5}
+      - {x: -466, y: -110.5}
+      - {x: -451, y: -111.5}
+      - {x: -407, y: -111.5}
+      - {x: -393, y: -110.5}
+      - {x: -383, y: -109.5}
+      - {x: -362, y: -106.5}
+      - {x: -339, y: -101.5}
+      - {x: -318, y: -95.5}
+      - {x: -303, y: -90.5}
+      - {x: -289, y: -84.5}
+      - {x: -254, y: -66.5}
+      - {x: -252, y: -66.5}
+      - {x: -239, y: -60.5}
+      - {x: -215, y: -49.5}
+      - {x: -197, y: -39.5}
+      - {x: -180, y: -29.5}
+      - {x: -161, y: -17.5}
+      - {x: -153, y: -11.5}
+      - {x: -145, y: -4.5}
+      - {x: -119, y: 13.5}
+      - {x: -115, y: 15.5}
+      - {x: -93, y: 28.5}
+      - {x: -74, y: 40.5}
+      - {x: -53, y: 52.5}
+      - {x: -51, y: 52.5}
+      - {x: -18, y: 65.5}
+      - {x: 6, y: 71.5}
+      - {x: 16, y: 72.5}
+      - {x: 21, y: 70.5}
+      - {x: 30, y: 67.5}
+      - {x: 43, y: 60.5}
+      - {x: 72, y: 46.5}
+      - {x: 74, y: 44.5}
+      - {x: 85, y: 37.5}
+      - {x: 95, y: 30.5}
+      - {x: 105, y: 20.5}
+      - {x: 121, y: 2.5}
+      - {x: 137, y: -16.5}
+      - {x: 155, y: -35.5}
+      - {x: 170, y: -46.5}
+      - {x: 175, y: -49.5}
+      - {x: 184, y: -53.5}
+      - {x: 199, y: -60.5}
+      - {x: 218, y: -68.5}
+      - {x: 227, y: -71.5}
+      - {x: 257, y: -79.5}
+      - {x: 276, y: -82.5}
+      - {x: 304, y: -85.5}
+      - {x: 350, y: -85.5}
+      - {x: 366, y: -84.5}
+      - {x: 382, y: -81.5}
+      - {x: 397, y: -76.5}
+      - {x: 426, y: -67.5}
+      - {x: 436, y: -63.5}
+      - {x: 438, y: -61.5}
+      - {x: 468, y: -46.5}
+      - {x: 477, y: -41.5}
+      - {x: 492, y: -31.5}
+      - {x: 500, y: -25.5}
+      - {x: 509, y: -18.5}
+      - {x: 539, y: 6.5}
+      - {x: 569, y: 27.5}
+      - {x: 583, y: 37.5}
+      - {x: 589, y: 41.5}
+      - {x: 609, y: 51.5}
+      - {x: 628, y: 61.5}
+      - {x: 641, y: 68.5}
+      - {x: 651, y: 72.5}
+      - {x: 679, y: 79.5}
+      - {x: 694, y: 79.5}
+      - {x: 698, y: 78.5}
+      - {x: 707, y: 76.5}
+      - {x: 725, y: 65.5}
+      - {x: 758, y: 40.5}
+      - {x: 774, y: 29.5}
+      - {x: 792, y: 12.5}
+      - {x: 792, y: 11.5}
+      - {x: 798, y: 3.5}
+      - {x: 809, y: -7.5}
+      - {x: 822, y: -19.5}
+      - {x: 825, y: -22.5}
+      - {x: 836, y: -29.5}
+      - {x: 854, y: -39.5}
+      - {x: 873, y: -49.5}
+      - {x: 909, y: -70.5}
+      - {x: 944, y: -87.5}
+      - {x: 956, y: -92.5}
+      - {x: 960, y: -91.5}
+      - {x: 960, y: 130.5}
+      - {x: -960, y: 130.5}
+      - {x: -960, y: -130.5}
+      - {x: -949, y: -130.5}
+      - {x: -939, y: -126.5}
+      - {x: -901, y: -107.5}
+      - {x: -899, y: -108.5}
+    indices: 
+    edges: []
+    tessellationDetail: 0.25
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: -1}
+    spritePosition: {x: 0, y: 279}
+  - name: Capa de pintura 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 273
+      width: 1920
+      height: 239
+    spriteID: 126dc5b323dda154f93ec994e1ed1d79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: 938, y: -39.5}
+      - {x: 915, y: -26.5}
+      - {x: 886, y: -9.5}
+      - {x: 858, y: 4.5}
+      - {x: 856, y: 6.5}
+      - {x: 841, y: 16.5}
+      - {x: 840, y: 16.5}
+      - {x: 819, y: 40.5}
+      - {x: 795, y: 64.5}
+      - {x: 783, y: 73.5}
+      - {x: 748, y: 99.5}
+      - {x: 735, y: 107.5}
+      - {x: 719, y: 116.5}
+      - {x: 709, y: 118.5}
+      - {x: 706, y: 119.5}
+      - {x: 648, y: 119.5}
+      - {x: 629, y: 114.5}
+      - {x: 613, y: 108.5}
+      - {x: 595, y: 100.5}
+      - {x: 578, y: 91.5}
+      - {x: 554, y: 78.5}
+      - {x: 541, y: 70.5}
+      - {x: 519, y: 55.5}
+      - {x: 501, y: 42.5}
+      - {x: 489, y: 32.5}
+      - {x: 450, y: 1.5}
+      - {x: 439, y: -4.5}
+      - {x: 401, y: -24.5}
+      - {x: 391, y: -27.5}
+      - {x: 369, y: -35.5}
+      - {x: 339, y: -41.5}
+      - {x: 331, y: -42.5}
+      - {x: 314, y: -43.5}
+      - {x: 313, y: -42.5}
+      - {x: 295, y: -41.5}
+      - {x: 287, y: -40.5}
+      - {x: 267, y: -37.5}
+      - {x: 236, y: -29.5}
+      - {x: 220, y: -23.5}
+      - {x: 192, y: -10.5}
+      - {x: 187, y: -6.5}
+      - {x: 183, y: -4.5}
+      - {x: 165, y: 13.5}
+      - {x: 145, y: 38.5}
+      - {x: 114, y: 70.5}
+      - {x: 103, y: 78.5}
+      - {x: 61, y: 99.5}
+      - {x: 59, y: 101.5}
+      - {x: 36, y: 113.5}
+      - {x: 27, y: 115.5}
+      - {x: 22, y: 116.5}
+      - {x: 13, y: 117.5}
+      - {x: 0, y: 117.5}
+      - {x: -12, y: 116.5}
+      - {x: -22, y: 114.5}
+      - {x: -33, y: 111.5}
+      - {x: -50, y: 106.5}
+      - {x: -66, y: 100.5}
+      - {x: -78, y: 95.5}
+      - {x: -85, y: 92.5}
+      - {x: -113, y: 78.5}
+      - {x: -134, y: 65.5}
+      - {x: -147, y: 57.5}
+      - {x: -169, y: 43.5}
+      - {x: -182, y: 34.5}
+      - {x: -199, y: 21.5}
+      - {x: -218, y: 9.5}
+      - {x: -244, y: -5.5}
+      - {x: -265, y: -17.5}
+      - {x: -267, y: -17.5}
+      - {x: -285, y: -25.5}
+      - {x: -320, y: -43.5}
+      - {x: -322, y: -43.5}
+      - {x: -346, y: -52.5}
+      - {x: -364, y: -57.5}
+      - {x: -375, y: -59.5}
+      - {x: -383, y: -61.5}
+      - {x: -404, y: -64.5}
+      - {x: -419, y: -65.5}
+      - {x: -450, y: -66.5}
+      - {x: -451, y: -65.5}
+      - {x: -466, y: -64.5}
+      - {x: -481, y: -62.5}
+      - {x: -527, y: -53.5}
+      - {x: -555, y: -45.5}
+      - {x: -573, y: -39.5}
+      - {x: -602, y: -30.5}
+      - {x: -616, y: -25.5}
+      - {x: -632, y: -20.5}
+      - {x: -647, y: -16.5}
+      - {x: -665, y: -11.5}
+      - {x: -685, y: -8.5}
+      - {x: -714, y: -3.5}
+      - {x: -730, y: -1.5}
+      - {x: -759, y: -1.5}
+      - {x: -775, y: -3.5}
+      - {x: -790, y: -5.5}
+      - {x: -811, y: -12.5}
+      - {x: -832, y: -20.5}
+      - {x: -858, y: -31.5}
+      - {x: -876, y: -39.5}
+      - {x: -906, y: -53.5}
+      - {x: -925, y: -61.5}
+      - {x: -937, y: -66.5}
+      - {x: -960, y: -78.5}
+      - {x: -960, y: -119.5}
+      - {x: 960, y: -119.5}
+      - {x: 960, y: -50.5}
+      - {x: 949, y: -45.5}
+    indices: 
+    edges: []
+    tessellationDetail: 0.25
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 273}
+    spritePosition: {x: 0, y: 0}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Capa de pintura 3(pegado)
+    spriteName: Capa de pintura 3(pegado)
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 68a19bec1f91e3c45b8545bbbcc73a3e
+    layerID: 0
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Capa de pintura 1
+    spriteName: Capa de pintura 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 126dc5b323dda154f93ec994e1ed1d79
+    layerID: -1426428338
+    mosaicPosition: {x: 4, y: 273}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
