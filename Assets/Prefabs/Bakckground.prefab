@@ -135,9 +135,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff50554686c73b04c9b0f75025aba21e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parallaxSpeed: -0.5
-  spawnPosition: 0
-  minPosition: -15
+  parallaxSpeed: -5
+  spawnPosition: 20
+  minPosition: -30
 --- !u!1 &2254512669531556452 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8095235230672321430, guid: 4d436e7d6c47dae44908dd70cf01069b, type: 3}
@@ -195,9 +195,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff50554686c73b04c9b0f75025aba21e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parallaxSpeed: -0.5
+  parallaxSpeed: -5
   spawnPosition: 30
-  minPosition: -15
+  minPosition: -20
 --- !u!1 &5911258992177473663 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4402458186694187407, guid: 4d436e7d6c47dae44908dd70cf01069b, type: 3}
