@@ -6,6 +6,18 @@ public class PlayerController : MonoBehaviour
     private float speed;
 
     [SerializeField]
+    private KeyCode upKey;
+
+    [SerializeField]
+    private KeyCode downKey;
+
+    [SerializeField]
+    private KeyCode leftKey;
+
+    [SerializeField]
+    private KeyCode rightKey;
+
+    [SerializeField]
     private Vector2 bounds;
 
     private void Update()
@@ -18,20 +30,20 @@ public class PlayerController : MonoBehaviour
     {
         Vector2 velocity = new Vector2();
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(rightKey))
         {
             velocity.x = 1;
         }
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(leftKey))
         {
             velocity.x = -1;
         }
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(downKey))
         {
             velocity.y = -1;
         }
-        else if (Input.GetKey(KeyCode.W))
+        else if (Input.GetKey(upKey))
         {
             velocity.y = 1;
         }
