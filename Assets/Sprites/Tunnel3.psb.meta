@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4d436e7d6c47dae44908dd70cf01069b
+guid: a1e6dd49617acc14db126dd4b1c8bf78
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 180
+    spritePixelsToUnits: 90
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -93,51 +93,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Buildings2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 6339
-      width: 3628
-      height: 797
-    spriteID: a64bd58e914ff414687dec16530e9206
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 6339}
-    spritePosition: {x: 88, y: 0}
-  - name: Buildings1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 5385
-      width: 3199
-      height: 946
-    spriteID: d893044de6bf4e240908b7dcbe5598ee
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 5385}
-    spritePosition: {x: 207, y: 0}
-  - name: Clouds3
+  - name: Capa de pintura 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -146,9 +102,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 3693
-      height: 2016
-    spriteID: 300318275b766344e9099035a2558a5e
+      width: 5738
+      height: 1080
+    spriteID: 03a195da9ffd15e4187e2fcec14deb12
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -157,52 +113,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -51, y: 4}
-    spritePosition: {x: 55, y: 88}
-  - name: Clouds2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 2028
-      width: 3143
-      height: 1801
-    spriteID: 9e07166322b047e4eaaa36ca86b84e93
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 2028}
-    spritePosition: {x: 358, y: 243}
-  - name: Clouds1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 3837
-      width: 2914
-      height: 1540
-    spriteID: 23453468bde110c4cac20b2ded1ed87e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 3837}
-    spritePosition: {x: 181, y: 524}
+    uvTransform: {x: -11, y: 4}
+    spritePosition: {x: 15, y: 0}
   characterData:
     bones: []
     parts: []
@@ -266,53 +178,13 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Buildings2
-    spriteName: Buildings2
+  - name: Capa de pintura 1
+    spriteName: Capa de pintura 1
     isGroup: 0
     parentIndex: -1
-    spriteID: a64bd58e914ff414687dec16530e9206
+    spriteID: 03a195da9ffd15e4187e2fcec14deb12
     layerID: 0
-    mosaicPosition: {x: 4, y: 6339}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Buildings1
-    spriteName: Buildings1
-    isGroup: 0
-    parentIndex: -1
-    spriteID: d893044de6bf4e240908b7dcbe5598ee
-    layerID: -186256858
-    mosaicPosition: {x: 4, y: 5385}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Clouds3
-    spriteName: Clouds3
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 300318275b766344e9099035a2558a5e
-    layerID: 555318761
     mosaicPosition: {x: 4, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Clouds2
-    spriteName: Clouds2
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 9e07166322b047e4eaaa36ca86b84e93
-    layerID: 555318762
-    mosaicPosition: {x: 4, y: 2028}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Clouds1
-    spriteName: Clouds1
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 23453468bde110c4cac20b2ded1ed87e
-    layerID: 555318759
-    mosaicPosition: {x: 4, y: 3837}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -320,7 +192,7 @@ ScriptedImporter:
     spriteName: Fondo
     isGroup: 0
     parentIndex: -1
-    spriteID: c0ba7e4fd63feff4393d70f0327195c1
+    spriteID: a8442343c0cec1441bb58ec5ab32fec4
     layerID: 709232680
     mosaicPosition: {x: 4, y: 4}
     flatten: 0

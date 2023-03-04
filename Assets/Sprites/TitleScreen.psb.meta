@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8075f8ec247589f4da9ab9e981cfe827
+guid: 6e46723dfe06f184ea07a6a0006ebc16
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 1300
+    spritePixelsToUnits: 105
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -93,139 +93,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Face3
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1608
-      y: 706
-      width: 379
-      height: 338
-    spriteID: 0710823c142436546b78584ef40e74d4
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 1608, y: 706}
-    spritePosition: {x: 1779, y: 1319}
-  - name: Face2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1280
-      width: 379
-      height: 325
-    spriteID: c7175709469061649bb8601fb957d0d4
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 1280}
-    spritePosition: {x: 1779, y: 1319}
-  - name: Face
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 391
-      y: 1280
-      width: 379
-      height: 294
-    spriteID: 0c8799b88b524c740b599fa750e2343c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 391, y: 1280}
-    spritePosition: {x: 1779, y: 1319}
-  - name: Head
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 706
-      width: 785
-      height: 566
-    spriteID: 83fc94c6e93069643a7a8d80b98d3b89
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 706}
-    spritePosition: {x: 1381, y: 1219}
-  - name: FireAtTail2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 797
-      y: 706
-      width: 803
-      height: 442
-    spriteID: ee72e6bc35d48204bba90e3f0e0af5ed
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 797, y: 706}
-    spritePosition: {x: 202, y: 1209}
-  - name: FireAtTail1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1460
-      y: 4
-      width: 567
-      height: 400
-    spriteID: 2666b02dd451e9c4f85383cea48193bd
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 1460, y: 4}
-    spritePosition: {x: 438, y: 1216}
-  - name: Fire
+  - name: Title
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -234,9 +102,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1448
-      height: 694
-    spriteID: b97eec08167a7324ba6f2cbb3400b3e3
+      width: 1554
+      height: 713
+    spriteID: 7230f5c60da614e4eaf60917d373d9e1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -246,7 +114,73 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 798, y: 1143}
+    spritePosition: {x: 190, y: 367}
+  - name: PressStart
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1566
+      y: 4
+      width: 414
+      height: 207
+    spriteID: 0b142564151aa5f4eb338e91a051d3e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1566, y: 4}
+    spritePosition: {x: 751, y: 70}
+  - name: Dog
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 725
+      width: 575
+      height: 456
+    spriteID: ae7ee4e73a977b54695e9c72df0a1fb7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 725}
+    spritePosition: {x: 1251, y: 69}
+  - name: Cat
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1189
+      width: 501
+      height: 515
+    spriteID: 52a3b4c801df9e045aa90840bbdf5933
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1189}
+    spritePosition: {x: 85, y: 79}
   characterData:
     bones: []
     parts: []
@@ -294,17 +228,6 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
-  - name: WebGL
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
   mosaicLayers: 1
   characterMode: 1
   documentPivot: {x: 0, y: 0}
@@ -321,82 +244,52 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Face3
-    spriteName: Face3
+  - name: Title
+    spriteName: Title
     isGroup: 0
     parentIndex: -1
-    spriteID: 0710823c142436546b78584ef40e74d4
+    spriteID: 7230f5c60da614e4eaf60917d373d9e1
     layerID: 0
-    mosaicPosition: {x: 1608, y: 706}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Face2
-    spriteName: Face2
-    isGroup: 0
-    parentIndex: -1
-    spriteID: c7175709469061649bb8601fb957d0d4
-    layerID: -1903083177
-    mosaicPosition: {x: 4, y: 1280}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Face
-    spriteName: Face
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 0c8799b88b524c740b599fa750e2343c
-    layerID: -1779166203
-    mosaicPosition: {x: 391, y: 1280}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Head
-    spriteName: Head
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 83fc94c6e93069643a7a8d80b98d3b89
-    layerID: 28851968
-    mosaicPosition: {x: 4, y: 706}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: FireAtTail2
-    spriteName: FireAtTail2
-    isGroup: 0
-    parentIndex: -1
-    spriteID: ee72e6bc35d48204bba90e3f0e0af5ed
-    layerID: 202368431
-    mosaicPosition: {x: 797, y: 706}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: FireAtTail1
-    spriteName: FireAtTail1
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 2666b02dd451e9c4f85383cea48193bd
-    layerID: 202368428
-    mosaicPosition: {x: 1460, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Fire
-    spriteName: Fire
-    isGroup: 0
-    parentIndex: -1
-    spriteID: b97eec08167a7324ba6f2cbb3400b3e3
-    layerID: -649865570
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Fondo
+  - name: PressStart
+    spriteName: PressStart
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0b142564151aa5f4eb338e91a051d3e6
+    layerID: 936095471
+    mosaicPosition: {x: 1566, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Dog
+    spriteName: Dog
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ae7ee4e73a977b54695e9c72df0a1fb7
+    layerID: 728636408
+    mosaicPosition: {x: 4, y: 725}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Cat
+    spriteName: Cat
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 52a3b4c801df9e045aa90840bbdf5933
+    layerID: -118338490
+    mosaicPosition: {x: 4, y: 1189}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Background
     spriteName: 
     isGroup: 0
     parentIndex: -1
-    spriteID: fa2158b85af57e04aa0a38613106aacd
-    layerID: 709232680
+    spriteID: 2ddccce670d80d44d8ed7a002cb91875
+    layerID: -1498723586
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
