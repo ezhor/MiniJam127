@@ -8,9 +8,6 @@ public class CatProjectile : MonoBehaviour
     [SerializeField]
     private float speed;
 
-    [SerializeField]
-    private float lifeTime;
-
     private void Start()
     {
         SelectFace();
