@@ -1,35 +1,12 @@
 using UnityEngine;
 
-public class Parallax : MonoBehaviour
+public class Parallax : AbstractScroller
 {
-    [SerializeField]
-    private float parallaxSpeed;
-
     [SerializeField]
     private float spawnPosition;
 
-    [SerializeField]
-    private float minPosition;
-
-    // Update is called once per frame
-    void Update()
+    protected override void OnEndReached(Vector2 positionVector)
     {
-        Displacement();
-    }
-
-    private void Displacement()
-    {
-        Vector2 positionVector = transform.position;
-
-        if (positionVector.x < minPosition)
-        {
-            positionVector.x = spawnPosition;
-        }
-        else
-        {
-            positionVector.x = transform.position.x + parallaxSpeed * Time.deltaTime;
-        }
-
-        transform.position = positionVector;
+        positionVector.x = spawnPosition;
     }
 }
