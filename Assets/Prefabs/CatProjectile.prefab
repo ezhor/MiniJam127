@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1946826322040843943}
   m_Layer: 0
   m_Name: CatProjectile
-  m_TagString: Untagged
+  m_TagString: CatProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -142,7 +142,6 @@ MonoBehaviour:
   - {fileID: 3683648690973265518}
   - {fileID: 2804006798701773861}
   speed: 25
-  lifeTime: 2
 --- !u!1001 &404729275847670827
 PrefabInstance:
   m_ObjectHideFlags: 0

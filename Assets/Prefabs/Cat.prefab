@@ -595,9 +595,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6122594140988839146}
+  - component: {fileID: 3383458944150596750}
   - component: {fileID: 6122594140988839147}
   - component: {fileID: 6122594140988839149}
   - component: {fileID: 8496703396666344138}
+  - component: {fileID: 659292647652898987}
   m_Layer: 0
   m_Name: Cat
   m_TagString: Untagged
@@ -622,6 +624,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &3383458944150596750
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6122594140988839148}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!70 &6122594140988839147
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -672,6 +695,21 @@ MonoBehaviour:
   shootDelay: 0.25
   projectilePrefab: {fileID: 5064246422880830935, guid: 74033b02901fc7b4fb62f7ff3f153adc, type: 3}
   projectileSpawn: {fileID: 4597214164868541517}
+--- !u!114 &659292647652898987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6122594140988839148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c350916ecaec5d74e96a7f2cc466b4b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ghostPrefab: {fileID: 8871648627451421086, guid: 829b87bb2385d4542883eb38cc7869ea, type: 3}
+  ghostSpeed: 10
+  killerTag: Enemy
 --- !u!1 &8256940651353175482
 GameObject:
   m_ObjectHideFlags: 0

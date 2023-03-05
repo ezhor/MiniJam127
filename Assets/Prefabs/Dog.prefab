@@ -10,9 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2540323853708015843}
   - component: {fileID: 7205858721257286332}
+  - component: {fileID: 4248579800744433160}
+  - component: {fileID: 8871297218708253260}
   m_Layer: 0
   m_Name: Dog
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49,6 +51,32 @@ CapsuleCollider2D:
   m_Offset: {x: -0.55200243, y: 0.4580189}
   m_Size: {x: 2.2201147, y: 1.1721064}
   m_Direction: 1
+--- !u!210 &4248579800744433160
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6167225782612192877}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 100
+--- !u!114 &8871297218708253260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6167225782612192877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c350916ecaec5d74e96a7f2cc466b4b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ghostPrefab: {fileID: 3095231668065515639, guid: 5c7ada386b76397459bfe11ab12a1ace, type: 3}
+  ghostSpeed: 10
+  killerTag: CatProjectile
 --- !u!1001 &1514910506494980254
 PrefabInstance:
   m_ObjectHideFlags: 0
