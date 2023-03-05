@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class DestroyAfterSconds : MonoBehaviour
+public class DestroyAfterSeconds : MonoBehaviour
 {
     [SerializeField]
     private float seconds;

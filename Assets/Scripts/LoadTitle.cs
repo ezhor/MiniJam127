@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LoadTitle : MonoBehaviour
 {
-    private void OnBecameInvisible()
+    private void OnDestroy()
     {
         SceneManager.LoadSceneAsync("Title");
     }
