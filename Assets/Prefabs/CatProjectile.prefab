@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 8501966820022219940}
   - component: {fileID: 2548182146575550758}
   - component: {fileID: 4971274371166597770}
-  - component: {fileID: 1946826322040843943}
   - component: {fileID: 2882920612377124103}
+  - component: {fileID: 1946826322040843943}
+  - component: {fileID: 1162208990179246479}
   m_Layer: 0
   m_Name: CatProjectile
   m_TagString: CatProjectile
@@ -126,23 +127,6 @@ CircleCollider2D:
   m_Offset: {x: 0.1264382, y: 0.3196199}
   serializedVersion: 2
   m_Radius: 0.34084266
---- !u!114 &1946826322040843943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5064246422880830935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 281e3bc6ce0ec8a40a237f324467295d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  faces:
-  - {fileID: 2677874551544243303}
-  - {fileID: 3683648690973265518}
-  - {fileID: 2804006798701773861}
-  speed: 10
 --- !u!82 &2882920612377124103
 AudioSource:
   m_ObjectHideFlags: 0
@@ -165,7 +149,7 @@ AudioSource:
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
-  Pan2D: 0
+  Pan2D: -0.3
   rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
@@ -239,6 +223,35 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1946826322040843943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5064246422880830935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281e3bc6ce0ec8a40a237f324467295d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  faces:
+  - {fileID: 2677874551544243303}
+  - {fileID: 3683648690973265518}
+  - {fileID: 2804006798701773861}
+  speed: 10
+--- !u!114 &1162208990179246479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5064246422880830935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7da55fac7f1666540be4dc03378750e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &404729275847670827
 PrefabInstance:
   m_ObjectHideFlags: 0
