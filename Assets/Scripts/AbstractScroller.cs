@@ -14,7 +14,7 @@ public abstract class AbstractScroller : MonoBehaviour
 
         if (positionVector.x < minPosition)
         {
-            OnEndReached(positionVector);
+            OnEndReached(ref positionVector);
         }
         else
         {
@@ -23,5 +23,5 @@ public abstract class AbstractScroller : MonoBehaviour
         transform.position = positionVector;
     }
 
-    protected abstract void OnEndReached(Vector2 positionVector);
+    protected abstract void OnEndReached(ref Vector2 positionVector);
 }
