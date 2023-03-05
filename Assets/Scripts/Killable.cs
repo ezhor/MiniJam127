@@ -16,7 +16,10 @@ public class Killable : MonoBehaviour
     {
         if (collider.CompareTag(killerTag))
         {
-            Instantiate(ghostPrefab, transform.position, Quaternion.identity).GetComponent<Rigidbody2D>().velocity = new Vector2(0f, ghostSpeed);
+            if (Instantiate(ghostPrefab, transform.position, Quaternion.identity).TryGetComponent(out Rigidbody2D rigidbody2D))
+            {
+                rigidbody2D.velocity = new Vector2(0f, ghostSpeed);
+            }
             Destroy(gameObject);
         }
     }
